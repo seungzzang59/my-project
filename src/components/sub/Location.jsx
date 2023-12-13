@@ -1,7 +1,9 @@
+import Layout from "../common/Layout";
+
 export default function Location() {
   return (
-    <main className="layout Location">
-      <h1>Location</h1>
-    </main>
+    <Layout title={"Location"}>
+      <p>Location Page Contents</p>
+    </Layout>
   );
 }
