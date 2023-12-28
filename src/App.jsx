@@ -5,6 +5,7 @@ import Department from "./components/sub/Department";
 import Gallery from "./components/sub/Gallery";
 import Location from "./components/sub/Location";
 import Youtube from "./components/sub/Youtube";
+import youtubeDetail from "./components/sub/YoutubeDetail";
 
 import "./scss/style.scss";
 
@@ -20,6 +21,8 @@ export default function App() {
       <Route path="/gallery" component={Gallery} />
       <Route path="/location" component={Location} />
       <Route path="/Youtube" component={Youtube} />
+      <Route path="/Youtube-detail/:id" component={youtubeDetail} />
+
       <Footer />
     </div>
   );
